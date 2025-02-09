@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <nav>
+        <a href="#" data-target="home" class="active">Home</a>
+        <a href="#" data-target="service">Service</a>
+        <a href="#" data-target="portfolio">Portofolio</a>
+        <a href="#" data-target="contact">Contact</a>
+    </nav>
+
+    <div id="home" class="content">
+        <div class="home-content">
+            <h1>Welcome to My Personal</h1>
+            <h2>PORTOFOLIO</h2>
+            <p>Freelance writer specializing in articles & blogs. Produce quality, informative, and SEO-friendly content. Ready to collaborate! 🚀</p>
+            
+            <a href="#" class="cta-button" id="lets-talk">Let's Talk</a>
+        </div>
+    </div>
+    
+    <div id="service" class="content">
+        <div class="service-content">
+            <h1>MY SERVICE</h1>
+            <p>Hello! I am Iqbal, a freelance writer who is an expert in creating quality articles and blogs. With in-depth research and AI, I deliver content that is interesting, informative, and SEO-friendly. From blogging to copywriting, I'm ready to help your business grow with impactful writing. Contact me for collaboration! 🚀</p>
+
+            <div class="line"></div>
+
+            <div class="service-card">
+                <div class="black-card">
+                    <img src="img/1.png" alt="">
+                    <h1>Copywriting</h1>
+                    <p>Write compelling, persuasive text that increases conversions for ads, landing pages, email marketing, and social media.</p>
+                </div>
+
+                <div class="white-card">
+                    <img src="img/2.png" alt="">
+                    <h1>Article & Blog Writing</h1>
+                    <p>Create informative, engaging, and SEO-friendly articles and blogs to increase visibility and credibility.</p>
+                </div>
+
+                <div class="black-card">
+                    <img src="img/3.png" alt="">
+                    <h1>SEO & Content Strategy</h1>
+                    <p>Optimize content with keyword research, proper structure, and linking strategies to make it more effective and discoverable.</p>
+                </div>
+
+                <div class="white-card">
+                    <img src="img/4.png" alt="">
+                    <h1>Editing & Proofreading</h1>
+                    <p>Edit and correct your writing to make it error-free and more professional and comfortable to read.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="portfolio" class="content">
+        <div class="portofolio-content">
+            <div class="porto-card" onclick="window.open('https://medium.com/@iqblfdhlh/model-bisnis-yang-sukses-di-era-digital-dari-startup-hingga-korporasi-8c80b0d0b2be', '_blank')">
+                <div class="blog">
+                    <h1>5 Februari 2025</h1>
+                    <h2>Model Bisnis yang Sukses di Era Digital: Dari Startup hingga Korporasi</h2>
+                    <p>Era digital telah mengubah cara bisnis beroperasi. Teknologi yang terus berkembang membuka peluang baru bagi startup da...</p>
+                </div>
+                <img src="img/44.png" alt="">
+            </div>
+
+            <div class="porto-card" onclick="window.open('https://medium.com/@iqblfdhlh/bagaimana-memanfaatkan-data-untuk-mengambil-keputusan-bisnis-yang-lebih-cerdas-565226a8c990', '_blank')">
+                <div class="blog">
+                    <h1>4 Februari 2025</h1>
+                    <h2>Bagaimana Memanfaatkan Data untuk Mengambil Keputusan Bisnis yang Lebih Cerdas</h2>
+                    <p>Di era digital saat ini, data menjadi aset yang sangat berharga bagi setiap bisnis. Dengan menganalisis data yang tersedia,...</p>
+                </div>
+                <img src="img/33.png" alt="">
+            </div>
+
+            <div class="porto-card" onclick="window.open('https://medium.com/@iqblfdhlh/mengoptimalkan-pengalaman-pelanggan-untuk-meningkatkan-loyalitas-5c0bf338347b', '_blank')">
+                <div class="blog">
+                    <h1>4 Februari 2025</h1>
+                    <h2>Mengoptimalkan Pengalaman Pelanggan untuk Meningkatkan Loyalitas</h2>
+                    <p>Dalam dunia bisnis yang kompetitif, memiliki produk atau layanan yang bagus saja tidak cukup. Pengalaman pelanggan yang luar...</p>
+                </div>
+                <img src="img/22.png" alt="">
+            </div>
+
+            <div class="porto-card" onclick="window.open('https://medium.com/@iqblfdhlh/membangun-brand-yang-kuat-di-pasar-yang-kompetitif-menjadi-pemimpin-bukan-pengikut-5330f507a4aa', '_blank')">
+                <div class="blog">
+                    <h1>4 Februari 2025</h1>
+                    <h2>Membangun Brand yang Kuat di Pasar yang Kompetitif: Menjadi Pemimpin, Bukan Pengikut</h2>
+                    <p>Di tengah persaingan bisnis yang semakin ketat, membangun brand yang kuat menjadi sebuah kebutuhan yang tak...</p>
+                </div>
+                <img src="img/11.png" alt="">
+            </div>
+        </div> 
+    </div>
+    
+    <div id="contact" class="content">
+        <div class="contact-content">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <h1>Let's Talk</h1>
+                <p>Ask me anything or just say hi...</p>
+
+                <input type="hidden" name="access_key" value="ce920d07-5b11-44f9-8014-8002c8b9952b">
+
+                <div class="biodata">
+                    <div class="bio">
+                        <h2>Your Name</h2>
+                        <input type="text" name="name" placeholder="Enter your Name" class="item" autocomplete="off">
+                    </div>
+
+                    <div class="bio">
+                        <h2>Your Email</h2>
+                        <input type="text"  name="email" placeholder="Enter your email" class="item" autocomplete="off">
+                    </div>
+                    
+                </div>
+
+                <div class="message">
+                    <h2>Your Message</h2>
+                    <textarea name="message" placeholder="Enter your message" class="item" autocomplete="off"></textarea>
+                </div>
+
+                <button class="send">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h1>Contact Information</h1>
+                <p>Feel free to ask or just say hello!</p>
+
+                <div class="phone">
+                    <h1>Phone</h1>
+                    <p>+62 8121 733 7736</p>
+                </div>
+
+                <div class="email">
+                    <h1>E-mail</h1>
+                    <p>iqbalfadhilah245@gmail.com</p>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="sosmed">
+                    <h1>Follow Me</h1>
+
+                    <div class="social-icons">
+                        <a href="#"><i class='bx bxl-github' ></i></a>
+                        <a href="#"><i class='bx bxl-linkedin-square' ></i></i></a>
+                        <a href="#" onclick="window.open('https://instagram.com/iqblfdhlh', '_blank')"><i class='bx bxl-instagram-alt' ></i></i></a>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
