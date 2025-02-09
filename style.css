@@ -274,6 +274,8 @@ nav a.active{
     }
     .service-content .line {
         width: 100px;
+        margin-top : 3rem;
+        margin-bottom : 3rem;
     }
     .service-card {
         display: flex;
